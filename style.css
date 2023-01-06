@@ -37,7 +37,9 @@ span{
     color: #FD6E0A;
 }
 
-.button{
+.button,
+.cv-btn,
+.submit-btn{
     font-size: 20px;
     width: 200px;
     height: 64px;
@@ -67,7 +69,6 @@ span{
 
 .mary{
     display: inline-block;
-    height: ;
 }
 
 header{
@@ -80,7 +81,8 @@ header{
                                                             /* Main section 1 */
 
 .section-main-1,
-.section-main-2{
+.section-main-2,
+.ed-sum{
     margin: 130px 170px;
     background-color: #FFF8F3;
     padding: 130px 120px;
@@ -119,4 +121,77 @@ header{
 
 .skill-title{
     margin: 25px 0;
+}
+
+
+                                                            /* 3rd section  */
+
+
+.ed-sum{
+    background-color:white;
+}
+
+.ed{
+    border-bottom: 1px solid gray;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.section-title{
+    margin: 70px auto;
+}
+
+.ed-inst{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.ed-name{
+    margin-bottom: 20px;
+}
+
+.cv-btn{
+    margin-top: 50px;
+}
+
+                                                            /*footer*/
+
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 130px 120px;
+}
+
+.cont-instruction{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+form{
+    margin-top: 28px;
+}
+
+input{
+    width: 461px;
+    height: 64px;
+    margin: 24px 0;
+    padding: 15px;
+}
+
+textarea{
+    resize: none;
+    padding: 15px;
+}
+
+.submit-btn{
+    display: block;
+    margin-top: 25px;
 }
